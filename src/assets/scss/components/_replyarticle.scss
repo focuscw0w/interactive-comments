@@ -1,0 +1,11 @@
+.reply-container {
+    display: flex;
+    gap: 3em;
+    padding-left: 2em;
+    .vertical-line {
+        width: 2px;
+        height: inherit;
+        margin-bottom: 1em;
+    }
+
+}

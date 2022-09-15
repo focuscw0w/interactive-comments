@@ -1,0 +1,17 @@
+#profile {
+    .flex-container {
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #send-comment {
+        padding: .8em 1.6em;
+    }
+
+    textarea {
+        padding: 1em;
+        border-radius: .5em;
+        width: 100%;
+        height: auto;
+    }
+}

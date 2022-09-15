@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+$paragraph-size: 16px;
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: $background-color;
+    font-size: $paragraph-size;
+}
+
+p {
+    font-weight: $regular;
+    color: $primary-color;
+}
+
+article {
+    background-color: $article-color;
+}
+
+h1, h2 {
+    font-size: inherit;
+}
+
+/* ARTICLE */
+
+article {
+    
+    .user-likes {
+        background-color: $background-color;
+    }
+
+    .amount-of-likes {
+        color: $special-color;
+        font-weight: $bold;
+    }
+
+    .center-content {
+        header {
+            .publishing-time {
+                color: $primary-color;
+            }
+        }
+    }
+
+    .adjust-btn {
+        color: $special-color;
+        font-weight: $medium;
+    }
+
+    .replyingTo {
+        color: $special-color;
+    }
+
+    #delete-btn {
+        color: $delete-color;
+    }
+}
+
+/* PROFILE */
+
+#profile {
+    
+    #send-comment {
+        cursor: pointer;
+        color: $article-color;
+        background-color: $special-color;
+        border: 1px solid $special-color;
+        border-radius: .5em;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: lighten($special-color, 15%);
+            border: 1px solid lighten($special-color, 15%);
+        }
+    }
+
+    textarea {
+        border: 1px solid $textarea-color;
+        font-family: inherit;
+        font-weight: $medium;
+    }
+}
+
+/* REPLY */
+
+.you-tag {
+    background-color: $special-color;
+    color: $you-tag;
+}
+
+.editing-outline {
+    border: 1px solid $special-color;
+    outline: thick $special-color;   
+    border-radius: .3em;
+    padding: 1em;
+}
+
+.reply-container {
+    .vertical-line {
+        background-color: $vertical-line-color;
+    }
+}
